@@ -1,0 +1,42 @@
+/* Basic styles for the navigation bar */
+.navbar {
+    background-color: #09aaac;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Dropdown menu styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+.dropdown-content li {
+    display: block;
+    margin: 10px;
+}
+
+/* Active state styles */
+.navbar ul li.active a {
+    font-weight: bold;
+}
+
+/* Highlight dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
